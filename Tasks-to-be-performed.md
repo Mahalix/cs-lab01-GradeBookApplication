@@ -67,9 +67,9 @@ If you would rather use something other than Visual Studio
       - This should use the `public` access modifier.
       - This should contain the values `Standard`, `Ranked`, `ESNU`, `OneToFour`, and `SixPoint`.
 
-  - [ ] Add `Type` property
+  - [x] Add `Type` property
 
-    - [ ] Add a new property `Type` to `BaseGradeBook`
+    - [x] Add a new property `Type` to `BaseGradeBook`
       - This should use the name `Type`.
       - This should be of type `GradeBookType`.
       - This should use the `public` access modifier.
