@@ -107,15 +107,15 @@ If you would rather use something other than Visual Studio
       - Return D if the input grade is between the top 60 and 80% of the class.
       - Return F if the grade is below the top 80% of the class.
 
-  - [ ] Override `RankedGradeBook`'s `CalculateStatistics` method
+  - [x] Override `RankedGradeBook`'s `CalculateStatistics` method
 
-    - [ ] Short circuit the method if there are less than 5 students.
+    - [x] Short circuit the method if there are less than 5 students.
       - If there are less than 5 students write "Ranked grading requires at least 5 students." to the Console.
       - If there are 5 or more students call the base class's `CalculateStatistics` method using `base.CalculateStatistics`.
 
-  - [ ] Override `RankedGradeBook`'s `CalculateStudentStatistics` method
+  - [x] Override `RankedGradeBook`'s `CalculateStudentStatistics` method
 
-    - [ ] Short circuit the method if there are less than 5 students.
+    - [x] Short circuit the method if there are less than 5 students.
       - If there are less than 5 students write "Ranked grading requires at least 5 students." to the Console.
       - If there are 5 or more students call the base class's `CalculateStudentStatistics` method using `base.CalculateStudentStatistics`.
 
